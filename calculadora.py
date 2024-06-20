@@ -12,7 +12,7 @@ class Calculadora:
         return a*b
 
     def dividir(self, a, b):
-        # TODO: Implemente a divisão
-        # Certifique-se de lidar com a divisão por zero
-        pass
+        if b != 0:
+            result = a/b
+        return result
 
