@@ -9,7 +9,7 @@ class Calculadora:
 
     def multiplicar(self, a, b):
         # TODO: Implemente a multiplicação
-        pass
+        return a*b
 
     def dividir(self, a, b):
         # TODO: Implemente a divisão
