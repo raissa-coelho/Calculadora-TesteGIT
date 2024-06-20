@@ -1,18 +1,14 @@
 class Calculadora:
     def adicionar(self, a, b):
-        # TODO: Implemente a adição
-        pass
+        return a + b
 
     def subtrair(self, a, b):
-        # TODO: Implemente a subtração
-        pass
-
+        return a - b
+        
     def multiplicar(self, a, b):
-        # TODO: Implemente a multiplicação
         return a*b
 
     def dividir(self, a, b):
         if b != 0:
             result = a/b
         return result
-
